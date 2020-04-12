@@ -87,9 +87,9 @@ class Receipt{
 
 	public void remove() {
 		List<Item> list = new ArrayList<Item>();
-		arlist.add("117");
-		arlist.add("TP-Lobiko");
-		arlist.add("3200mkd");
+		arlist.remove("117");
+		arlist.remove("TP-Lobiko");
+		arlist.remove("3200mkd");
 	}
 
 }
