@@ -75,3 +75,21 @@ class Item {
 		return getPrice() * getTipA() * 0.15;
 	}
 }
+
+
+class Receipt{
+	public void add() {
+		List<Item> list = new ArrayList<Item>();
+		arlist.add("110");
+		arlist.add("BlockCafe");
+		arlist.add("330mkd");
+	}
+
+	public void remove() {
+		List<Item> list = new ArrayList<Item>();
+		arlist.add("117");
+		arlist.add("TP-Lobiko");
+		arlist.add("3200mkd");
+	}
+
+}
